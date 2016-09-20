@@ -1,0 +1,378 @@
+# Microsoft Developer Studio Generated Dependency File, included by IfcApi.mak
+
+.\StdAfx.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	".\IfcApi.h"\
+	".\IfcButton.h"\
+	".\IfcFormView.h"\
+	".\IfcObject.h"\
+	".\IfcTreeView.h"\
+	".\IfcValue.h"\
+	".\IfcWnd.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Building.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\BuildingType.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\BuildingType.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\CalcHeatBalance.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Room.h"\
+	
+
+.\CalcHeatLoss.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\CalcHeatLoss.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\City.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\City.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\DustGasExcretion.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\DustGasExcretionType.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\DustGasExcretionType.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\Fence.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\FenceType.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\FenceView.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\FenceView.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\Floor.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Room.h"\
+	
+
+.\HVKApi.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\HVKCalcObject.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\IfcApi.h"\
+	
+
+.\HVKDbDirect.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKDbDirect.h"\
+	".\IfcApi.h"\
+	
+
+.\HVKDbObject.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	
+
+.\HVKVector.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	
+
+.\Party.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	".\Party.h"\
+	
+
+.\Project.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\IfcComboBox.h"\
+	".\IfcDialog.h"\
+	".\IfcEdit.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\Room.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\WorldSide.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	".\WorldSide.h"\
+	
+
+.\IfcApi.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	
+
+.\IfcApi.rc : \
+	".\res\IfcApi.rc2"\
+	{$(INCLUDE)}"l.rus\afxres.rc"\
+	
+
+.\IfcButton.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	
+
+.\IfcComboBox.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\HVKApi.h"\
+	".\HVKDbObject.h"\
+	".\IfcApi.h"\
+	".\IfcComboBox.h"\
+	
+
+.\IfcDialog.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	".\IfcDialog.h"\
+	
+
+.\IfcEdit.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	".\IfcEdit.h"\
+	
+
+.\IfcFormView.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\HVKDesign\MainFrm.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\IfcComboBox.h"\
+	".\IfcDialog.h"\
+	".\IfcEdit.h"\
+	".\IfcTabCtrl.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\IfcObject.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	
+
+.\IfcTabCtrl.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	".\IfcTabCtrl.h"\
+	
+
+.\IfcTreeView.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	
+
+.\IfcValue.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\IfcApi.h"\
+	
+
+.\IfcWnd.cpp : \
+	"..\COMApi\ADORecord.h"\
+	".\Building.h"\
+	".\BuildingType.h"\
+	".\CalcHeatBalance.h"\
+	".\City.h"\
+	".\DustGasExcretion.h"\
+	".\DustGasExcretionType.h"\
+	".\Fence.h"\
+	".\FenceType.h"\
+	".\FenceView.h"\
+	".\Floor.h"\
+	".\HVKApi.h"\
+	".\HVKCalcObject.h"\
+	".\HVKDbObject.h"\
+	".\HVKVector.h"\
+	".\IfcApi.h"\
+	".\IfcComboBox.h"\
+	".\IfcEdit.h"\
+	".\IfcTabCtrl.h"\
+	".\Party.h"\
+	".\Project.h"\
+	".\Room.h"\
+	".\WorldSide.h"\
+	

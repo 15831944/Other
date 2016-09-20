@@ -1,0 +1,24 @@
+#include <conio.h>
+#include <stdio.h>
+
+double interp(double *parr[2])
+{
+	return parr[0][2];
+}
+void main()
+{
+	double b[2][12]
+	//declaration array
+	double ** a=malloc(sizeof(double*)*12);
+	for int i=0;i<n;i++)
+		a[i]=(double*)malloc(sizeof(double)*2);
+
+					{
+						{1,2,3},
+						{4,5,6}
+					};
+	printf ("%lf",interp(a[2]));
+	getch();
+
+
+}

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoDbApi", "AdoDbApi\AdoDbApi.csproj", "{2F8D2F8A-7B56-4D7E-8986-8DBC8C668EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVKApi", "HVKApi\HVKApi.csproj", "{62C5E0EF-E6EC-40C2-B2F5-B168295086DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8D2F8A-7B56-4D7E-8986-8DBC8C668EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8D2F8A-7B56-4D7E-8986-8DBC8C668EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8D2F8A-7B56-4D7E-8986-8DBC8C668EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8D2F8A-7B56-4D7E-8986-8DBC8C668EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C5E0EF-E6EC-40C2-B2F5-B168295086DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C5E0EF-E6EC-40C2-B2F5-B168295086DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C5E0EF-E6EC-40C2-B2F5-B168295086DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C5E0EF-E6EC-40C2-B2F5-B168295086DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

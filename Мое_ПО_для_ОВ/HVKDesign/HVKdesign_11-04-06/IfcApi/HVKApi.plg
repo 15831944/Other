@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HVKApi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\Temp\RSP66.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HVKAPI_EXPORTS" /Fp"..\Debug.tmp\HVKApi/HVKApi.pch" /Yu"stdafx.h" /Fo"..\Debug.tmp\HVKApi/" /Fd"..\Debug.tmp\HVKApi/" /FD /GZ /c 
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Building.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\BuildingType.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\CalcHeatBalance.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\CalcHeatLoss.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\City.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Fence.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\FenceType.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\FenceView.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Floor.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\HVKApi.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\HVKDbObject.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Party.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Project.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\Room.cpp"
+"D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\HVKApi\WorldSide.cpp"
+]
+Creating command line "cl.exe @c:\Temp\RSP66.tmp" 
+Creating temporary file "c:\Temp\RSP67.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"..\Debug/HVKApi.pdb" /debug /machine:I386 /out:"..\Debug/HVKApi.dll" /implib:"..\Debug/HVKApi.lib" /pdbtype:sept 
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Building.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\BuildingType.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\CalcHeatBalance.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\CalcHeatLoss.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\City.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Fence.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\FenceType.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\FenceView.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Floor.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\HVKApi.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\HVKCalcObject.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\HVKDbDirect.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\HVKDbObject.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\HVKVector.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Party.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Project.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\Room.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\StdAfx.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\HVKApi\WorldSide.obj"
+]
+Creating command line "link.exe @c:\Temp\RSP67.tmp"
+<h3>Output Window</h3>
+Compiling...
+City.cpp
+Fence.cpp
+FenceType.cpp
+FenceView.cpp
+WorldSide.cpp
+Generating Code...
+Compiling...
+Building.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+BuildingType.cpp
+CalcHeatLoss.cpp
+HVKApi.cpp
+HVKDbObject.cpp
+Party.cpp
+CalcHeatBalance.cpp
+Floor.cpp
+Project.cpp
+Room.cpp
+Linking...
+LINK : fatal error LNK1104: cannot open file "..\Debug\ifcapi.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+HVKApi.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

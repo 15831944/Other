@@ -1,0 +1,997 @@
+object Frm_prvd: TFrm_prvd
+  Left = 122
+  Top = 157
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Перевод едениц измерения'
+  ClientHeight = 366
+  ClientWidth = 821
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = [fsBold]
+  Icon.Data = {
+    0000010001002020100000000000E80200001600000028000000200000004000
+    0000010004000000000080020000000000000000000000000000000000000000
+    000000008000008000000080800080000000800080008080000080808000C0C0
+    C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000
+    000000000000000000000000000000000BBBBBB000000000000000000000000B
+    BBBBBBBBB000000000000000000000BBBB00000BB000000000000000000000BB
+    B00000000000000000000000000000BB0000000000BBBB000000000000000BBB
+    00000000BBBBBB000000000000000BBB0000000BBBBBBB000000000000000BB0
+    000000BBBB00BB0BBB00000000000BB0000000BBB000BBBBBB00000000000BBB
+    00000BBB00000BBBB0000000000000BB99999BBB09900BBBB0000000000000BB
+    B9999BB099999BBB00BBBB000000099BBB009BB09999BBB00BBBBB0000000999
+    BBB09BB09900BBB9BBBBBBB0000099900B009BB0990BBB99BBB00BB000009990
+    00000BBB99BBBB0BBB990BB000009900000009BBBBBBB0BBBB990BB000009900
+    0000099BBBBBB0BBB0990000000099000000099099BB0BBBB099000000009900
+    000099999900BBBBB09900BBBBBB9900000099099999BBBBB9990BBBBBBB9900
+    000999099999BBBBB9990BBB00BB9900009990099009BBBB9990BBBB00BB9900
+    9999000990009BB9000BBBB000BB9999999000099000999000BBBB0000BB0999
+    900000099999999000BBB000000B0000000000099999990000BBB00000000000
+    000000000009000000BBB000000000000000000000000000000BBBB000000000
+    0000000000000000000BBBB0000000000000000000000000000BBB000000FFFF
+    FFFFF81FFFFFE007FFFFC3E7FFFFC7FFFFFFCFFC3FFF8FF03FFF8FE03FFF9FC3
+    23FF9FC703FF8F8F87FFC00987FFC0100C3F8310183F8113001F1B12019F1F80
+    209F3F80409F3F8044FF3F9084FF3F0304C03F2000803E20008C3C66010C30E7
+    0E1C01E71C3C87E01C7EFFE03C7FFFFEFC7FFFFFFE1FFFFFFE1FFFFFFE3F}
+  OldCreateOrder = False
+  PixelsPerInch = 120
+  TextHeight = 16
+  object PgCntrl: TPageControl
+    Left = 5
+    Top = 0
+    Width = 812
+    Height = 297
+    ActivePage = TbSht_G
+    MultiLine = True
+    TabOrder = 0
+    object TbSht_G: TTabSheet
+      Caption = 'Объемный расход'
+      ImageIndex = 5
+      object Lbl_Gm_h: TLabel
+        Left = 160
+        Top = 36
+        Width = 33
+        Height = 16
+        Caption = 'м  /ч'
+      end
+      object Lbl_Gm_m: TLabel
+        Left = 160
+        Top = 80
+        Width = 52
+        Height = 16
+        Caption = 'м  /мин'
+      end
+      object Lbl_Gm_c: TLabel
+        Left = 160
+        Top = 128
+        Width = 32
+        Height = 16
+        Caption = 'м  /с'
+      end
+      object Lbl_Gl_h: TLabel
+        Left = 400
+        Top = 36
+        Width = 24
+        Height = 16
+        Caption = 'л/ч'
+      end
+      object Lbl_Gl_m: TLabel
+        Left = 400
+        Top = 80
+        Width = 43
+        Height = 16
+        Caption = 'л/мин'
+      end
+      object Lbl_Gl_c: TLabel
+        Left = 400
+        Top = 128
+        Width = 23
+        Height = 16
+        Caption = 'л/с'
+      end
+      object Label3: TLabel
+        Left = 170
+        Top = 32
+        Width = 8
+        Height = 13
+        Caption = '3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -3
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label4: TLabel
+        Left = 170
+        Top = 78
+        Width = 8
+        Height = 13
+        Caption = '3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -3
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label5: TLabel
+        Left = 170
+        Top = 123
+        Width = 8
+        Height = 13
+        Caption = '3'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -3
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Edt_Gm_h: TEdit
+        Left = 32
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+      object Edt_Gm_m: TEdit
+        Left = 32
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+      object Edt_Gm_c: TEdit
+        Left = 32
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+      object Edt_Gl_h: TEdit
+        Left = 272
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+      object Edt_Gl_m: TEdit
+        Left = 272
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+      object Edt_Gl_c: TEdit
+        Left = 272
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_Gm_hKeyPress
+        OnKeyUp = Edt_Gm_hKeyUp
+      end
+    end
+    object TbSht_Gm: TTabSheet
+      Caption = 'Массовый расход'
+      ImageIndex = 6
+      object Lbl_Gkg_h: TLabel
+        Left = 160
+        Top = 36
+        Width = 30
+        Height = 16
+        Caption = 'кг/ч'
+      end
+      object Lbl_Gkg_m: TLabel
+        Left = 160
+        Top = 80
+        Width = 49
+        Height = 16
+        Caption = 'кг/мин'
+      end
+      object Lbl_Gkg_c: TLabel
+        Left = 160
+        Top = 128
+        Width = 29
+        Height = 16
+        Caption = 'кг/с'
+      end
+      object Ll_Gt_h: TLabel
+        Left = 400
+        Top = 36
+        Width = 23
+        Height = 16
+        Caption = 'т/ч'
+      end
+      object Ll_Gt_m: TLabel
+        Left = 400
+        Top = 80
+        Width = 42
+        Height = 16
+        Caption = 'т/мин'
+      end
+      object Ll_Gt_c: TLabel
+        Left = 400
+        Top = 128
+        Width = 22
+        Height = 16
+        Caption = 'т/с'
+      end
+      object Edt_Gkg_h: TEdit
+        Left = 32
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+      object Edt_Gkg_m: TEdit
+        Left = 32
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+      object Edt_Gkg_c: TEdit
+        Left = 32
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+      object Edt_Gt_h: TEdit
+        Left = 272
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+      object Edt_Gt_m: TEdit
+        Left = 272
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+      object Edt_Gt_c: TEdit
+        Left = 272
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_Gkg_hKeyPress
+        OnKeyUp = Edt_Gkg_hKeyUp
+      end
+    end
+    object TbSht_c: TTabSheet
+      Caption = 'Удельная теплоемкость'
+      ImageIndex = 2
+      object Lbl_QGJ_k: TLabel
+        Left = 160
+        Top = 36
+        Width = 68
+        Height = 16
+        Caption = 'ГДж/кг·°С'
+      end
+      object Lbl_QMJ_k: TLabel
+        Left = 160
+        Top = 80
+        Width = 72
+        Height = 16
+        Caption = 'МДж/кг·°С'
+      end
+      object Lbl_QkJ_k: TLabel
+        Left = 160
+        Top = 128
+        Width = 68
+        Height = 16
+        Caption = 'кДж/кг·°С'
+      end
+      object Lbl_QJ_k: TLabel
+        Left = 160
+        Top = 176
+        Width = 60
+        Height = 16
+        Caption = 'Дж/кг·°С'
+      end
+      object Lbl_QGk_k: TLabel
+        Left = 400
+        Top = 36
+        Width = 70
+        Height = 16
+        Caption = 'Гкал/кг°С'
+      end
+      object Lbl_QMk_k: TLabel
+        Left = 400
+        Top = 88
+        Width = 74
+        Height = 16
+        Caption = 'Мкал/кг°С'
+      end
+      object Lbl_Qkk_k: TLabel
+        Left = 400
+        Top = 128
+        Width = 70
+        Height = 16
+        Caption = 'ккал/кг°С'
+      end
+      object Lbl_Qk_k: TLabel
+        Left = 400
+        Top = 176
+        Width = 62
+        Height = 16
+        Caption = 'кал/кг°С'
+      end
+      object Edt_QGJ_k: TEdit
+        Left = 32
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_QMJ_k: TEdit
+        Left = 32
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_QkJ_k: TEdit
+        Left = 32
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_QJ_k: TEdit
+        Left = 32
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_QGk_k: TEdit
+        Left = 272
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_QMk_k: TEdit
+        Left = 272
+        Top = 88
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_Qkk_k: TEdit
+        Left = 272
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 6
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+      object Edt_Qk_k: TEdit
+        Left = 272
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 7
+        OnKeyPress = Edt_QGJ_kKeyPress
+        OnKeyUp = Edt_QGJ_kKeyUp
+      end
+    end
+    object TbSht_Q: TTabSheet
+      Caption = 'Удельная теплота'
+      object Lbl_Qkkh: TLabel
+        Left = 400
+        Top = 128
+        Width = 49
+        Height = 16
+        Caption = 'ккал/ч'
+      end
+      object Lbl_QkW: TLabel
+        Left = 160
+        Top = 128
+        Width = 27
+        Height = 16
+        Caption = 'кВт'
+      end
+      object Lbl_QW: TLabel
+        Left = 160
+        Top = 176
+        Width = 19
+        Height = 16
+        Caption = 'Вт'
+      end
+      object Lbl_QMW: TLabel
+        Left = 160
+        Top = 80
+        Width = 31
+        Height = 16
+        Caption = 'MВт'
+      end
+      object Lbl_QMkh: TLabel
+        Left = 400
+        Top = 80
+        Width = 53
+        Height = 16
+        Caption = 'Мкал/ч'
+      end
+      object Lbl_QGkh: TLabel
+        Left = 400
+        Top = 36
+        Width = 49
+        Height = 16
+        Caption = 'Гкал/ч'
+      end
+      object Lbl_QGW: TLabel
+        Left = 160
+        Top = 36
+        Width = 27
+        Height = 16
+        Caption = 'ГВт'
+      end
+      object Lbl_Qkh: TLabel
+        Left = 400
+        Top = 176
+        Width = 41
+        Height = 16
+        Caption = 'кал/ч'
+      end
+      object Edt_QGW: TEdit
+        Left = 32
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_QMW: TEdit
+        Left = 32
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_QkW: TEdit
+        Left = 32
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_QW: TEdit
+        Left = 32
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_QGkh: TEdit
+        Left = 272
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_QMkh: TEdit
+        Left = 272
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_Qkkh: TEdit
+        Left = 272
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 6
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+      object Edt_Qkh: TEdit
+        Left = 272
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 7
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGWKeyUp
+      end
+    end
+    object TbSht_QQ: TTabSheet
+      Caption = 'Количество теплоты'
+      ImageIndex = 1
+      OnMouseMove = TbSht_QQMouseMove
+      object Lbl_QGk: TLabel
+        Left = 400
+        Top = 36
+        Width = 35
+        Height = 16
+        Caption = 'Гкал'
+      end
+      object Lbl_QMk: TLabel
+        Left = 400
+        Top = 80
+        Width = 39
+        Height = 16
+        Caption = 'Мкал'
+      end
+      object Lbl_QGJ: TLabel
+        Left = 160
+        Top = 36
+        Width = 29
+        Height = 16
+        Caption = 'ГДж'
+      end
+      object Lbl_QMJ: TLabel
+        Left = 160
+        Top = 80
+        Width = 33
+        Height = 16
+        Caption = 'МДж'
+      end
+      object Lbl_QkJ: TLabel
+        Left = 160
+        Top = 128
+        Width = 29
+        Height = 16
+        Caption = 'кДж'
+      end
+      object Lbl_QJ: TLabel
+        Left = 160
+        Top = 176
+        Width = 21
+        Height = 16
+        Caption = 'Дж'
+      end
+      object Lbl_Qkk: TLabel
+        Left = 400
+        Top = 128
+        Width = 35
+        Height = 16
+        Caption = 'ккал'
+      end
+      object Lbl_Qk: TLabel
+        Left = 400
+        Top = 176
+        Width = 27
+        Height = 16
+        Caption = 'кал'
+      end
+      object Lbl_Qtut: TLabel
+        Left = 640
+        Top = 36
+        Width = 34
+        Height = 16
+        Caption = 'т.у.т'
+        OnMouseMove = Lbl_QtutMouseMove
+      end
+      object Edt_QGk: TEdit
+        Left = 272
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_QMk: TEdit
+        Left = 272
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_QGJ: TEdit
+        Left = 32
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_QGJKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_QMJ: TEdit
+        Left = 32
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_QkJ: TEdit
+        Left = 32
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_QJ: TEdit
+        Left = 32
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_Qkk: TEdit
+        Left = 272
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 6
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_Qk: TEdit
+        Left = 272
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 7
+        OnKeyPress = Edt_QGWKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+      end
+      object Edt_Qtut: TEdit
+        Left = 512
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 8
+        OnKeyPress = Edt_QGJKeyPress
+        OnKeyUp = Edt_QGJKeyUp
+        OnMouseMove = Edt_QtutMouseMove
+      end
+    end
+    object TbSht_P: TTabSheet
+      Caption = 'Давление'
+      ImageIndex = 4
+      object Lbl_PGPa: TLabel
+        Left = 144
+        Top = 36
+        Width = 29
+        Height = 16
+        Caption = 'ГПа'
+      end
+      object Lbl_PMPa: TLabel
+        Left = 144
+        Top = 80
+        Width = 33
+        Height = 16
+        Caption = 'МПа'
+      end
+      object Lbl_PkPa: TLabel
+        Left = 144
+        Top = 128
+        Width = 29
+        Height = 16
+        Caption = 'кПа'
+      end
+      object Lbl_PPa: TLabel
+        Left = 144
+        Top = 176
+        Width = 21
+        Height = 16
+        Caption = 'Па'
+      end
+      object Lbl_Pkg_cm: TLabel
+        Left = 560
+        Top = 80
+        Width = 47
+        Height = 16
+        Caption = 'кгс/cм'
+      end
+      object Lbl_Pkg_m: TLabel
+        Left = 560
+        Top = 128
+        Width = 39
+        Height = 16
+        Caption = 'кгс/м'
+      end
+      object Lbl_Pmvst: TLabel
+        Left = 336
+        Top = 36
+        Width = 62
+        Height = 16
+        Caption = 'м.вод.ст'
+      end
+      object Lbl_Pmmvst: TLabel
+        Left = 336
+        Top = 80
+        Width = 72
+        Height = 16
+        Caption = 'мм.вод.ст'
+      end
+      object Lbl_Pmrtst: TLabel
+        Left = 336
+        Top = 128
+        Width = 52
+        Height = 16
+        Caption = 'м.рт.ст'
+      end
+      object Lbl_Pmmrtst: TLabel
+        Left = 336
+        Top = 176
+        Width = 62
+        Height = 16
+        Caption = 'мм.рт.ст'
+      end
+      object Lbl_Patm: TLabel
+        Left = 768
+        Top = 80
+        Width = 28
+        Height = 16
+        Caption = 'атм'
+      end
+      object Lbl_Index: TLabel
+        Left = 608
+        Top = 76
+        Width = 8
+        Height = 13
+        Caption = '2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -7
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label1: TLabel
+        Left = 600
+        Top = 125
+        Width = 8
+        Height = 13
+        Caption = '2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -7
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Lbl_Pkg_mm: TLabel
+        Left = 560
+        Top = 36
+        Width = 49
+        Height = 16
+        Caption = 'кгс/мм'
+      end
+      object Label2: TLabel
+        Left = 608
+        Top = 36
+        Width = 8
+        Height = 13
+        Caption = '2'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -7
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Lbl_Pbar: TLabel
+        Left = 768
+        Top = 36
+        Width = 28
+        Height = 16
+        Caption = 'бар'
+      end
+      object Lbl_Pat: TLabel
+        Left = 768
+        Top = 128
+        Width = 18
+        Height = 16
+        Caption = 'ат'
+      end
+      object Edt_PGPa: TEdit
+        Left = 16
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 0
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_PMPa: TEdit
+        Left = 16
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 1
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_PkPa: TEdit
+        Left = 16
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 2
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_PPa: TEdit
+        Left = 16
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 3
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pkg_cm: TEdit
+        Left = 432
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 9
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pkg_m: TEdit
+        Left = 432
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 10
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pmvst: TEdit
+        Left = 208
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 4
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pmmvst: TEdit
+        Left = 208
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 5
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pmrtst: TEdit
+        Left = 208
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 6
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pmmrtst: TEdit
+        Left = 208
+        Top = 176
+        Width = 121
+        Height = 24
+        TabOrder = 7
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Patm: TEdit
+        Left = 640
+        Top = 80
+        Width = 121
+        Height = 24
+        TabOrder = 12
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pkg_mm: TEdit
+        Left = 432
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 8
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pbar: TEdit
+        Left = 640
+        Top = 36
+        Width = 121
+        Height = 24
+        TabOrder = 11
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+      object Edt_Pat: TEdit
+        Left = 640
+        Top = 128
+        Width = 121
+        Height = 24
+        TabOrder = 13
+        OnKeyPress = Edt_PGPaKeyPress
+        OnKeyUp = Edt_PGPaKeyUp
+      end
+    end
+  end
+  object Btn_Exit: TButton
+    Left = 536
+    Top = 304
+    Width = 89
+    Height = 33
+    Caption = 'Выход'
+    TabOrder = 1
+    OnClick = Btn_ExitClick
+  end
+  object Btn_Help: TButton
+    Left = 656
+    Top = 304
+    Width = 89
+    Height = 33
+    Caption = 'Справка'
+    TabOrder = 2
+  end
+  object StsBr: TStatusBar
+    Left = 0
+    Top = 345
+    Width = 821
+    Height = 21
+    Panels = <>
+    SimplePanel = True
+  end
+end

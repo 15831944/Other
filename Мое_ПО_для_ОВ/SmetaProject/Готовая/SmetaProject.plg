@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SmetaProject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/SmetaProject.res" /d "NDEBUG" /d "_AFXDLL" "D:\Проектирование\Мое_ПО_для_ОВ\SmetaProject\Готовая\SmetaProject.rc"" 
+Creating temporary file "C:\DOCUME~1\Tatyana\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SmetaProject.pdb" /machine:I386 /out:"Release/SmetaProject.exe" 
+".\Release\DirTreeCtrl.obj"
+".\Release\DlgPb.obj"
+".\Release\font.obj"
+".\Release\msflexgrid.obj"
+".\Release\msword9.obj"
+".\Release\MyDataTable.obj"
+".\Release\MyFunctions.obj"
+".\Release\PC_BrowserDlg.obj"
+".\Release\Razdel.obj"
+".\Release\RazdelAnalog.obj"
+".\Release\RazdelZdanie.obj"
+".\Release\RazdelZdanieDlg.obj"
+".\Release\rowcursor.obj"
+".\Release\SmetaProject.obj"
+".\Release\StdAfx.obj"
+".\Release\Zdanie.obj"
+".\Release\ZdanieData.obj"
+".\Release\ZdanieInfoDlg.obj"
+".\Release\ZdanieResultsDlg.obj"
+".\Release\SmetaProject.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Tatyana\LOCALS~1\Temp\RSPA9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SmetaProject.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

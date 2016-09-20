@@ -1,0 +1,7 @@
+D:\VS Projects\HVKDesign\HVKApi\obj\Debug\ResolveAssemblyReference.cache
+D:\VS Projects\HVKDesign\HVKApi\obj\Debug\HVKApi.dll
+D:\VS Projects\HVKDesign\HVKApi\bin\Debug\HVKApi.dll
+D:\VS Projects\HVKDesign\HVKApi\bin\Debug\HVKApi.pdb
+D:\VS Projects\HVKDesign\HVKApi\bin\Debug\AdoDbApi.dll
+D:\VS Projects\HVKDesign\HVKApi\bin\Debug\AdoDbApi.pdb
+D:\VS Projects\HVKDesign\HVKApi\obj\Debug\HVKApi.pdb

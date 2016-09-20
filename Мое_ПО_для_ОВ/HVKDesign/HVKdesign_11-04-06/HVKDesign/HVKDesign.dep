@@ -1,0 +1,271 @@
+# Microsoft Developer Studio Generated Dependency File, included by HVKDesign.mak
+
+.\HVKDesign.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+!IF  "$(CFG)" == "HVKDesign - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "HVKDesign - Win32 Debug"
+
+!ENDIF 
+
+.\HVKDesign.rc : \
+	".\res\HVKDesign.ico"\
+	".\res\HVKDesign.rc2"\
+	".\res\HVKMainDoc.ico"\
+	".\res\mainfram.bmp"\
+	".\res\Toolbar.bmp"\
+	".\res\toolbar1.bmp"\
+	
+
+.\HVKInitDlg.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKInitDlg.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\HVKMainDoc.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKInitDlg.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\HVKMainView.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\HVKTreeView.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MainFrm.cpp : \
+	"..\COMApi\ADORecord.h"\
+	"..\COMApi\COMApi.h"\
+	"..\comapi\msado15.dll"\
+	"..\IfcApi\Building.h"\
+	"..\IfcApi\BuildingType.h"\
+	"..\IfcApi\CalcHeatBalance.h"\
+	"..\IfcApi\City.h"\
+	"..\IfcApi\DustGasExcretion.h"\
+	"..\IfcApi\DustGasExcretionType.h"\
+	"..\IfcApi\Fence.h"\
+	"..\IfcApi\FenceType.h"\
+	"..\IfcApi\FenceView.h"\
+	"..\IfcApi\Floor.h"\
+	"..\IfcApi\HVKApi.h"\
+	"..\IfcApi\HVKCalcObject.h"\
+	"..\IfcApi\HVKDbObject.h"\
+	"..\IfcApi\HVKVector.h"\
+	"..\IfcApi\IfcApi.h"\
+	"..\IfcApi\IfcButton.h"\
+	"..\IfcApi\IfcFormView.h"\
+	"..\IfcApi\IfcObject.h"\
+	"..\IfcApi\IfcTabCtrl.h"\
+	"..\IfcApi\IfcTreeView.h"\
+	"..\IfcApi\IfcValue.h"\
+	"..\IfcApi\IfcWnd.h"\
+	"..\IfcApi\Party.h"\
+	"..\IfcApi\Project.h"\
+	"..\IfcApi\Room.h"\
+	"..\IfcApi\StdAfx.h"\
+	"..\IfcApi\WorldSide.h"\
+	".\HVKDesign.h"\
+	".\HVKMainDoc.h"\
+	".\HVKMainView.h"\
+	".\HVKTreeView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+!IF  "$(CFG)" == "HVKDesign - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "HVKDesign - Win32 Debug"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "HVKDesign - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "HVKDesign - Win32 Debug"
+
+!ENDIF 
+

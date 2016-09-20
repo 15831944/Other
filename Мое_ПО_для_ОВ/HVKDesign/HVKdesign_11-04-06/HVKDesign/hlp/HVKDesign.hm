@@ -1,0 +1,38 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_DISABLE                             0x18003
+HID_CITYDIR                             0x18004
+HID_BUILDINGTYPEDIR                     0x18005
+HID_FENCEVIEWIR                         0x18006
+HID_FENCETYPEDIR                        0x18007
+HID_PARTYDIR                            0x18008
+HID_CALC_RM_HEATLOSS                    0x1800A
+HID_CALC_RM_HEATENTRY                   0x1800B
+HID_REP_HEATLOSS                        0x1800C
+HID_REP_HEATENTRY                       0x1800D
+HID_REP_FULL                            0x1800E
+HID_CALC_RM_HEATBALANCE                 0x18012
+HID_BUTTON32790                         0x18016
+HID_BUTTON32791                         0x18017
+HID_BUTTON32792                         0x18018
+HID_BUTTON32793                         0x18019
+HID_VIEW_CHANGE                         0x1801A
+HID_TRAY_EXIT                           0x1801C
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_HVKDESTYPE                         0x20081
+HIDR_TOOLBAR_ROOM                       0x20089
+HIDR_MAINFRAME_                         0x20090
+HIDR_MENU1                              0x20095
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_HVKDESIGN_FORM                     0x20065
+HIDD_PROJECT_FORM                       0x20081
+HIDD_DIRDLG                             0x20085
+HIDD_DIALOG                             0x2008D
+ 
+// Frame Controls (IDW_*) 

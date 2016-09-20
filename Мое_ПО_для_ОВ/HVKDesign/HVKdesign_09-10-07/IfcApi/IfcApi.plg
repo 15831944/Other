@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IfcApi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\Debug.tmp\IfcApi/IfcApi.res" /d "_DEBUG" /d "_AFXDLL" "D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcApi.rc"" 
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "IFCAPI_EXPORTS" /D "HVKAPI_EXPORTS" /FR"..\Debug.tmp\IfcApi/" /Fp"..\Debug.tmp\IfcApi/IfcApi.pch" /Yu"stdafx.h" /Fo"..\Debug.tmp\IfcApi/" /Fd"..\Debug.tmp\IfcApi/" /FD /GZ /c 
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Building.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\BuildingType.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\CalcHeatBalance.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\CalcHeatLoss.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\City.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\DustGasExcretion.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\DustGasExcretionType.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Fence.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\FenceType.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\FenceView.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Floor.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\HVKApi.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\HVKCalcObject.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\HVKDbDirect.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\HVKDbObject.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\HVKVector.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Party.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Project.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\Room.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\WorldSide.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcApi.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcButton.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcComboBox.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcDialog.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcEdit.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcFormView.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcObject.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcTabCtrl.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcTreeView.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcValue.cpp"
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcWnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP30.tmp" 
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "IFCAPI_EXPORTS" /D "HVKAPI_EXPORTS" /FR"..\Debug.tmp\IfcApi/" /Fp"..\Debug.tmp\IfcApi/IfcApi.pch" /Yc"stdafx.h" /Fo"..\Debug.tmp\IfcApi/" /Fd"..\Debug.tmp\IfcApi/" /FD /GZ /c 
+"D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP31.tmp" 
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug/IfcApi.pdb" /debug /machine:I386 /def:".\IfcApi.def" /out:"..\Debug/IfcApi.dll" /implib:"..\Debug/IfcApi.lib" /pdbtype:sept 
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\StdAfx.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Building.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\BuildingType.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\CalcHeatBalance.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\CalcHeatLoss.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\City.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\DustGasExcretion.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\DustGasExcretionType.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Fence.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\FenceType.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\FenceView.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Floor.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\HVKApi.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\HVKCalcObject.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\HVKDbDirect.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\HVKDbObject.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\HVKVector.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Party.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Project.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\Room.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\WorldSide.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcApi.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcButton.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcComboBox.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcDialog.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcEdit.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcFormView.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcObject.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcTabCtrl.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcTreeView.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcValue.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcWnd.obj"
+"\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\Debug.tmp\IfcApi\IfcApi.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP32.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+D:\Татьяна\Мои документы\Visual Studio Projects\VC++6.0\HVK\HVKdesign\IfcApi\IfcApi.rc(159) : fatal error RC1015: cannot open include file 'l.rus\afxres.rc'.
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+IfcApi.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# Microsoft Developer Studio Generated Dependency File, included by COMApi.mak
+
+.\ADORecord.cpp : \
+	".\ADORecord.h"\
+	".\COMApi.h"\
+	".\msado15.dll"\
+	
+
+.\COMApi.cpp : \
+	".\ADORecord.h"\
+	".\COMApi.h"\
+	".\msado15.dll"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

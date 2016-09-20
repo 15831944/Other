@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SmetaProject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP99.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/SmetaProject.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\_SmetaProject_best\Zdanie.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP99.tmp" 
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP9A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SmetaProject.pdb" /machine:I386 /out:"Release/SmetaProject.exe" 
+.\Release\DirTreeCtrl.obj
+.\Release\DlgPb.obj
+.\Release\font.obj
+.\Release\msflexgrid.obj
+.\Release\msword9.obj
+.\Release\MyDataTable.obj
+.\Release\MyFunctions.obj
+.\Release\PC_BrowserDlg.obj
+.\Release\Razdel.obj
+.\Release\RazdelAnalog.obj
+.\Release\RazdelZdanie.obj
+.\Release\RazdelZdanieDlg.obj
+.\Release\rowcursor.obj
+.\Release\SmetaProject.obj
+.\Release\StdAfx.obj
+.\Release\Zdanie.obj
+.\Release\ZdanieData.obj
+.\Release\ZdanieInfoDlg.obj
+.\Release\ZdanieResultsDlg.obj
+.\Release\SmetaProject.res
+]
+Creating command line "link.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP9A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Zdanie.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+/nologo /o"Release/SmetaProject.bsc" 
+.\Release\StdAfx.sbr
+.\Release\DirTreeCtrl.sbr
+.\Release\DlgPb.sbr
+.\Release\font.sbr
+.\Release\msflexgrid.sbr
+.\Release\msword9.sbr
+.\Release\MyDataTable.sbr
+.\Release\MyFunctions.sbr
+.\Release\PC_BrowserDlg.sbr
+.\Release\Razdel.sbr
+.\Release\RazdelAnalog.sbr
+.\Release\RazdelZdanie.sbr
+.\Release\RazdelZdanieDlg.sbr
+.\Release\rowcursor.sbr
+.\Release\SmetaProject.sbr
+.\Release\Zdanie.sbr
+.\Release\ZdanieData.sbr
+.\Release\ZdanieInfoDlg.sbr
+.\Release\ZdanieResultsDlg.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\7FFE~1\LOCALS~1\Temp\RSP9C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SmetaProject.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

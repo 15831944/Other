@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IfcApi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\Debug.tmp\IfcApi/IfcApi.res" /d "_DEBUG" /d "_AFXDLL" "D:\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\IfcApi\IfcApi.rc"" 
+Creating temporary file "c:\Temp\RSP1FA.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\Debug/IfcApi.pdb" /debug /machine:I386 /def:".\IfcApi.def" /out:"..\Debug/IfcApi.dll" /implib:"..\Debug/IfcApi.lib" /pdbtype:sept 
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\StdAfx.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Building.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\BuildingType.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\CalcHeatBalance.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\CalcHeatLoss.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\City.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\DustGasExcretion.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\DustGasExcretionType.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Fence.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\FenceType.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\FenceView.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Floor.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\HVKApi.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\HVKCalcObject.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\HVKDbDirect.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\HVKDbObject.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\HVKVector.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Party.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Project.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\Room.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\WorldSide.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcApi.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcButton.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcComboBox.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcEdit.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcFormView.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcObject.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcTabCtrl.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcTreeView.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcValue.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcWnd.obj"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcApi.res"
+"\Татьяна\Мои документы\УЧЕБА_В03ПО\Диплом\Мой диплом\Sources\HVKdesign\Debug.tmp\IfcApi\IfcDialog.obj"
+]
+Creating command line "link.exe @c:\Temp\RSP1FA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+   Creating library ..\Debug/IfcApi.lib and object ..\Debug/IfcApi.exp
+
+
+
+<h3>Results</h3>
+IfcApi.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

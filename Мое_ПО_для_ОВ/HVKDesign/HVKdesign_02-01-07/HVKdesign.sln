@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COMApi", "COMApi\COMApi.vcproj", "{ABD86B6E-18AA-44D9-A6BA-B89627056B89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HVKDesign", "HVKDesign\HVKDesign.vcproj", "{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IfcApi", "IfcApi\IfcApi.vcproj", "{03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.0 = {03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.1 = {ABD86B6E-18AA-44D9-A6BA-B89627056B89}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ABD86B6E-18AA-44D9-A6BA-B89627056B89}.Debug.ActiveCfg = Debug|Win32
+		{ABD86B6E-18AA-44D9-A6BA-B89627056B89}.Debug.Build.0 = Debug|Win32
+		{ABD86B6E-18AA-44D9-A6BA-B89627056B89}.Release.ActiveCfg = Release|Win32
+		{ABD86B6E-18AA-44D9-A6BA-B89627056B89}.Release.Build.0 = Release|Win32
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.Debug.ActiveCfg = Debug|Win32
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.Debug.Build.0 = Debug|Win32
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.Release.ActiveCfg = Release|Win32
+		{56D135EB-EF57-4FEB-85B9-9C7F8699CF17}.Release.Build.0 = Release|Win32
+		{03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}.Debug.ActiveCfg = Debug|Win32
+		{03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}.Debug.Build.0 = Debug|Win32
+		{03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}.Release.ActiveCfg = Release|Win32
+		{03367547-2B1C-48A2-AAA7-7D0A0ED74EE2}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\VS Projects\HVKDesign\AdoDbApi\obj\Debug\ResolveAssemblyReference.cache
+D:\VS Projects\HVKDesign\AdoDbApi\obj\Debug\AdoDbApi.dll
+D:\VS Projects\HVKDesign\AdoDbApi\obj\Debug\AdoDbApi.pdb
+D:\VS Projects\HVKDesign\AdoDbApi\bin\Debug\AdoDbApi.dll
+D:\VS Projects\HVKDesign\AdoDbApi\bin\Debug\AdoDbApi.pdb
+D:\______________\MyProjects\HVKDesign\AdoDbApi\bin\Debug\AdoDbApi.dll
+D:\______________\MyProjects\HVKDesign\AdoDbApi\bin\Debug\AdoDbApi.pdb
+D:\______________\MyProjects\HVKDesign\AdoDbApi\obj\Debug\ResolveAssemblyReference.cache
+D:\______________\MyProjects\HVKDesign\AdoDbApi\obj\Debug\AdoDbApi.dll
+D:\______________\MyProjects\HVKDesign\AdoDbApi\obj\Debug\AdoDbApi.pdb
